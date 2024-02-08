@@ -10,7 +10,18 @@ namespace A1
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show($"Assalomu alaykum, {textBox1.Text}");
-            //MessageBox.Show($"Bu asosiy xabar matni", "Bu sarlavha", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            /*
+            MessageBox.Show($"Bu asosiy xabar matni",
+                             "Bu sarlavha",
+                             MessageBoxButtons.OK,
+                             MessageBoxIcon.Information);
+            */
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Salmon;
+            button1.ForeColor = Color.Red;
         }
     }
 }
